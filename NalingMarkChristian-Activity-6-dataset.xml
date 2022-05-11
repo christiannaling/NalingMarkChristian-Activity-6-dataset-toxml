@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE LIBRARY [
+
+	<!ELEMENT LIBRARY (report_detail)>
+	<!ELEMENT report_detail (file_title, file_description, document_date, document_number, experiment_type, report_status, year)>
+
+	<!ELEMENT LIBRARY (#PCDATA)>
+	<!ELEMENT report_detail (#PCDATA)>
+	<!ELEMENT file_title (#PCDATA)>
+	<!ELEMENT file_description (#PCDATA)>
+	<!ELEMENT document_date (#PCDATA)>	
+	<!ELEMENT document_number (#PCDATA)>
+	<!ELEMENT experiment_type (#PCDATA)>
+	<!ELEMENT report_status (#PCDATA)>
+	<!ELEMENT year (#PCDATA)>
+
+	<!ATTLIST report_detail report_no CDATA #REQUIRED>
+
+]>
+
+<LIBRARY>
+
+	<report_detail report_no="001">
+		<file_title> LTPP Newsletter Fall 2019, Issue 1</file_title>
+		<file_description> Expanding the data warehouse. MRL has relocated. Data Analysis Student Contest Guidelines Available</file_description>
+		<document_date> 12/20/2019</document_date>
+		<document_number> FHWA-HRT-20-027</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2019</year>
+	</report_detail>
+
+	<report_detail report_no="002">
+		<file_title> Use of LTPP SMP Data to Quantify Moisture Impacts on Fatigue Cracking in Flexible Pavements</file_title>
+		<file_description> This report shows moisture increase in pavement subsurface layers has an essential influence on granular material properties and affects expected pavement performance.</file_description>
+		<document_date> 02/01/2020</document_date>
+		<document_number> FHWA-HRT-20-006</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2020</year>
+	</report_detail>
+
+	<report_detail report_no="003">
+		<file_title> Acceptance Testing of High-Speed Transverse Profile Measuring Systems Purchased for the Long-Term Pavement Performance Program</file_title>
+		<file_description> This TechBrief shows the transverse profiles collected by all four AHSVs showed good repeatability and, when compared to reference profiles, good accuracy. It was demonstrated that the cross-correlation method could be used to evaluate the repeatability and the accuracy of data collected by transverse profile measuring system.</file_description>
+		<document_date>	02/01/2020</document_date>
+		<document_number> FHWA-HRT-20-023</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2021</year>
+	</report_detail>
+
+	<report_detail report_no="004">
+		<file_title> Long-Term Pavement Performance Information Management System User Guide</file_title>
+		<file_description> This document provides information to aid in understanding and using the Long-Term Pavement Performance(LTPP) program’s Pavement Performance Database (PPDB), LTPP Traffic Analysis Software (LTAS) database, and contents of the Ancillary Information Management System (AIMS) and LTPP InfoPave™.</file_description>
+		<document_date>	03/01/2021</document_date>
+		<document_number> FHWA-HRT-21-038</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2021</year>
+	</report_detail>
+
+	<report_detail report_no="005">
+		<file_title> LTPP Newsletter Spring 2021</file_title>
+		<file_description> LTPP Newsletter Spring 2021</file_description>
+		<document_date> 05/01/2021</document_date>
+		<document_number> FHWA-HRT-21-062</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2021</year>
+	</report_detail>
+
+	<report_detail report_no="006">
+		<file_title> FHWA InfoMaterials™ Dataset Management</file_title>
+		<file_description> This TechBrief discusses how FHWA collects a tremendous amount of valuable data through cutting-edge testing technology, sponsored research, and other collaborative efforts.</file_description>
+		<document_date>	07/26/2021</document_date>
+		<document_number> FHWA HRT-21-065</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2021</year>
+	</report_detail>
+
+	<report_detail report_no="007">
+		<file_title> Long-Term Pavement Performance Data Analysis Plan</file_title>
+		<file_description> This TechBrief summarizes the planning, conduct, and outcomes of the Federal Highway Administration’s (FHWA’s) Long-Term Pavement Performance (LTPP) program Data Analysis Workshop.</file_description>
+		<document_date>	09/29/2021</document_date>
+		<document_number> FHWA-HRT-21-088</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status> Final</report_status>
+		<year> 2021</year>
+	</report_detail>
+
+	<report_detail report_no="008">
+		<file_title> LTPP Newsletter Summer 2021</file_title>
+		<file_description> Summer Newsletter discussions on Forensic Investigations</file_description>
+		<document_date>	09/30/2021</document_date>
+		<document_number> FHWA-HRT-21-099</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2021</year>
+	</report_detail>
+
+	<report_detail report_no="009">
+		<file_title> FHWA InfoTechnology™ Brochure</file_title>
+		<file_description> This brochure discusses how some of the features allows users to narrow their searches by selecting the type of asset (bridge, pavement, or tunnel), materials, structural element, and the target of the investigation.</file_description>
+		<document_date>	11/21/2021</document_date>
+		<document_number> FHWA HRT-22-009</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2021</year>
+	</report_detail>
+
+	<report_detail report_no="010">
+		<file_title> LTPP Manual for Collecting and Processing Longitudinal Profile, Macrotexture, and Transverse Profile Data</file_title>
+		<file_description> This manual describes operational procedures for collecting longitudinal profile, macrotexture, and transverse profile data for the Long-Term Pavement Performance program using a High-Speed Survey Vehicle.</file_description>
+		<document_date>	02/28/2022</document_date>
+		<document_number> FHWA-HRT-21-096</document_number>
+		<experiment_type> N/A</experiment_type>
+		<report_status>	Final</report_status>
+		<year> 2022</year>
+	</report_detail>
+
+</LIBRARY>
